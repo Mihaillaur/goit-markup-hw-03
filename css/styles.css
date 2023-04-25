@@ -57,6 +57,9 @@ body {
 .page-header-container {
   display: flex;
   align-items: center;
+  /* border-bottom: 1px solid #e7e9fc; */
+}
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 .nav {
@@ -73,6 +76,7 @@ body {
   margin-right: 40px;
 }
 .menu-link {
+  padding: 24px 0;
 }
 
 .logo {
@@ -160,10 +164,11 @@ body {
 /* ==========Герой========== */
 
 .section-hero {
+  padding: 188px 0;
 }
 .page-hero-container {
-  padding-bottom: 188px;
-  padding-top: 188px;
+  /* padding-bottom: 188px; */
+  /* padding-top: 188px; */
 }
 .section-hero {
   background-color: var(--primary-color);
@@ -207,6 +212,7 @@ body {
 /* ==========Секция 1========== */
 
 .super {
+  padding: 120px 0;
 }
 .advantages-list-item {
   font-weight: 500;
@@ -225,7 +231,7 @@ body {
 }
 .container-advantages {
   display: flex;
-  padding: 120px 0;
+  /* padding: 120px 0; */
   gap: 24px;
 }
 
@@ -236,6 +242,9 @@ body {
 /* ==========Секция 2========== */
 .products-container {
 }
+.our-products {
+  padding-bottom: 120px;
+}
 .our-products-title {
   font-weight: 700;
   font-size: 36px;
@@ -244,13 +253,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-color);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
+  /* padding-bottom: 72px; */
 }
 .products-list {
   display: flex;
   margin: 0;
   gap: 24px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 /* ==========Сукция 3========== */
@@ -258,7 +268,8 @@ body {
 }
 .our-team {
   background-color: var(--secondary-bcg-color);
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
+  padding: 120px 0;
 }
 .team-list {
   display: flex;
@@ -266,6 +277,9 @@ body {
 }
 .employee {
   flex-basis: calc((100%-72px) / 4);
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+  /* border-radius: 0px 0px 4px 4px; */
 }
 .our-team-title {
   font-weight: 700;
@@ -275,8 +289,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-color);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  /* padding-top: 120px; */
+  margin-bottom: 72px;
 }
 .emploee-card {
   text-align: center;
@@ -292,6 +306,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+  margin-bottom: 8px;
 }
 .job-title {
   font-weight: 400;
@@ -308,7 +323,12 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-logo {
+/* .footer-logo  */
+.logo-footer {
+  display: inline-block;
+  height: 24px;
+  width: 115px;
+  margin-bottom: 16px;
 }
 .footer-text {
   font-weight: 400;
@@ -316,23 +336,28 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 264px;
+  max-width: 264px;
   margin-top: 18px;
 }
 
 /* ==========Фильтр Портфолио========== */
+
+.our-services {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .portfolio-container {
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 .filter-list {
-  padding-top: 96px;
-  padding-bottom: 72px;
+  /* padding-top: 96px; */
   display: flex;
   /* margin-left: auto; */
   /* margin-right: auto; */
   /* align-items: center; */
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .filter-button {
@@ -342,7 +367,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
   color: var(--btn-color-normal);
   background-color: var(--secondary-bcg-color);
   height: 48px;
@@ -352,8 +378,10 @@ body {
 .filter-button:focus {
   color: var(--primary-light-color);
   background: var(--hover-color);
+  border: 1px solid transparent;
 }
 /* ==========card-set========== */
+
 .services-list {
   padding: 0;
   margin: 0;
@@ -378,6 +406,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+  margin-bottom: 8px;
 }
 .direction {
   font-weight: 400;
