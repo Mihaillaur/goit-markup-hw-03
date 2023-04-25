@@ -317,8 +317,8 @@ body {
   margin-bottom: 16px;
 }
 .logo-footer {
-  width: 71px;
-  height: 21px;
+  /* width: 71px; */
+  /* height: 21px; */
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
