@@ -93,21 +93,9 @@ body {
   text-decoration: none;
   margin-right: 76px;
 }
-.logo-footer {
-  width: 71px;
-  height: 21px;
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--secondary-bcg-color);
-  text-decoration: none;
-}
+
 .logo-accent {
-  width: 44px;
+  width: 71px;
   height: 21px;
   font-family: var(--secondary-font);
   font-style: normal;
@@ -118,8 +106,8 @@ body {
   text-transform: uppercase;
   color: var(--primary-color);
   flex: none;
-  order: 0;
-  flex-grow: 0;
+  /* order: 0; */
+  /* flex-grow: 0; */
 }
 
 .menu-link {
@@ -279,7 +267,7 @@ body {
   flex-basis: calc((100%-72px) / 4);
   /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
-  /* border-radius: 0px 0px 4px 4px; */
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team-title {
   font-weight: 700;
@@ -324,11 +312,22 @@ body {
   padding-bottom: 100px;
 }
 /* .footer-logo  */
-.logo-footer {
+.footer-logo {
   display: inline-block;
-  height: 24px;
-  width: 115px;
   margin-bottom: 16px;
+}
+.logo-footer {
+  width: 71px;
+  height: 21px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-bcg-color);
+  text-decoration: none;
 }
 .footer-text {
   font-weight: 400;
