@@ -51,7 +51,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: auto;
+  /* outline: auto; */
 }
 /* ==========Header========== */
 .page-header-container {
@@ -321,8 +321,22 @@ body {
 }
 
 /* ==========Фильтр Портфолио========== */
+.portfolio-container {
+  margin-bottom: 120px;
+}
+.filter-list {
+  padding-top: 96px;
+  padding-bottom: 72px;
+  display: flex;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* align-items: center; */
+  justify-content: center;
+  gap: 24px;
+}
 
 .filter-button {
+  display: block;
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -331,11 +345,32 @@ body {
   border: 0;
   color: var(--btn-color-normal);
   background-color: var(--secondary-bcg-color);
+  height: 48px;
+  padding: 12px 24px;
 }
 .filter-button:hover,
 .filter-button:focus {
   color: var(--primary-light-color);
   background: var(--hover-color);
+}
+/* ==========card-set========== */
+.services-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.services-list-item {
+  row-gap: 24px;
+}
+.card {
+  padding: 32px 16px;
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
+  /* margin: 32px 0; */
 }
 .services-title {
   font-weight: 500;
